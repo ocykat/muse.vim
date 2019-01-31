@@ -6,6 +6,8 @@ Muse colorscheme is a personal creation of mine. I was a fan of dark colorscheme
 
 This colorscheme is super standard: white background and a small number of text colors: black (of course), blue and purple.
 
+![screenshot]()
+
 ## Required packages
 
 * `vim-airline/vim-airline` for tabline and statusline
