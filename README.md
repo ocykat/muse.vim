@@ -6,7 +6,7 @@ Muse colorscheme is a personal creation of mine. I was a fan of dark colorscheme
 
 This colorscheme is super standard: white background and a small number of text colors: black (of course), blue and purple.
 
-![screenshot]()
+![screenshot](https://github.com/ocykat/muse.vim/blob/master/screenshot.png)
 
 ## Required packages
 
