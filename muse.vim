@@ -53,14 +53,17 @@ call s:h("Function",            { "fg": s:blue,   "bg": s:nbg })
 call s:h("Number",              { "fg": s:maroon, "bg": s:nbg })
 call s:h("String",              { "fg": s:green,  "bg": s:nbg })
 call s:h("Statement",           { "fg": s:blue,   "bg": s:nbg })
-call s:h("Type",                { "fg": s:blue,   "bg": s:nbg })
+call s:h("Type",                { "fg": s:purple, "bg": s:nbg })
 call s:h("VertSplit",           { "bg": s:deepskyblue })
 
 " C/C++
 call s:h("cInclude",            { "fg": s:blue,   "bg": s:nbg })
 call s:h("cIncluded",           { "fg": s:maroon, "bg": s:nbg })
 call s:h("cIncluded",           { "fg": s:maroon, "bg": s:nbg })
+call s:h("cStorageClass",       { "fg": s:blue,   "bg": s:nbg })
+call s:h("cStructure",          { "fg": s:blue,   "bg": s:nbg })
 call s:h("cppSTLConstant",      { "fg": s:maroon, "bg": s:nbg })
+call s:h("cppStructure",        { "fg": s:blue,   "bg": s:nbg })
 
 " Latex
 call s:h("texBeginEnd",         { "fg": s:blue,   "bg": s:nbg })
