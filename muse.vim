@@ -1,5 +1,7 @@
 syntax reset
 
+set g:colors_name="muse"
+
 set background=light
 
 " COLORS {{{
