@@ -1,8 +1,9 @@
-syntax reset
-
-set g:colors_name="muse"
-
 set background=light
+hi clear
+if exists("syntax_on")
+  syntax reset
+endif
+let g:colors_name="muse"
 
 " COLORS {{{
 
