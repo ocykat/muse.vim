@@ -51,7 +51,7 @@ endfunction
 " GUI
 call s:h("Normal", { "fg": s:nfg, "bg": s:nbg })
 call s:h("LineNr", { "fg": s:grey             })
-call s:h("Visual", { "fg": s:nearwhite, "bg": s:aqua})
+call s:h("Visual", { "fg": s:nearwhite, "bg": s:grey})
 call s:h("pMenu",  { "fg": s:nfg, "bg": s:nbg })
 call s:h("pMenuSel",  { "fg": s:nearwhite, "bg": s:yellow })
 
