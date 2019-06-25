@@ -53,7 +53,7 @@ call s:h("Normal", { "fg": s:nfg, "bg": s:nbg })
 call s:h("LineNr", { "fg": s:grey             })
 call s:h("Visual", { "fg": s:nearwhite, "bg": s:grey})
 call s:h("pMenu",  { "fg": s:nfg, "bg": s:nbg })
-call s:h("pMenuSel",  { "fg": s:nearwhite, "bg": s:yellow })
+call s:h("pMenuSel",  { "fg": s:nearwhite, "bg": s:purple })
 
 " Generic Highlighting
 call s:h("ColorColumn",         { "bg": s:lightgrey                })
