@@ -7,9 +7,9 @@ let g:colors_name="muse"
 
 " COLORS {{{
 
-let s:nearwhite     = { "gui": "#FFFFFF", "cterm": "NONE" }
+let s:nearwhite     = { "gui": "#F6F6F6", "cterm": "NONE" }
 let s:red           = { "gui": "#AF0000", "cterm": "1"    }
-let s:purple        = { "gui": "#800080", "cterm": "126"    }
+let s:purple        = { "gui": "#800080", "cterm": "126"  }
 let s:silver        = { "gui": "#C0C0C0", "cterm": "7"    }
 let s:yellow        = { "gui": "#FFFF00", "cterm": "11"   }
 let s:aqua          = { "gui": "#00FFFF", "cterm": "14"   }
@@ -92,4 +92,3 @@ call s:h("pythonImport",        { "fg": s:purple,      "bg": s:nbg })
 call s:h("pythonStatement",     { "fg": s:purple,      "bg": s:nbg })
 
 "}}}
-
