@@ -7,7 +7,8 @@ let g:colors_name="muse"
 
 " COLORS {{{
 
-let s:nearwhite     = { "gui": "#F6F6F6", "cterm": "255" }
+let s:nearwhite     = { "gui": "#F6F6F6", "cterm": "NONE" }
+let s:realnearwhite = { "gui": "#F6F6F6", "cterm": "255" }
 let s:red           = { "gui": "#AF0000", "cterm": "1"    }
 let s:purple        = { "gui": "#800080", "cterm": "126"  }
 let s:silver        = { "gui": "#C0C0C0", "cterm": "7"    }
@@ -51,7 +52,7 @@ endfunction
 " GUI
 call s:h("Normal", { "fg": s:nfg, "bg": s:nbg })
 call s:h("LineNr", { "fg": s:grey             })
-call s:h("Visual", { "fg": s:nearwhite, "bg": s:grey})
+call s:h("Visual", { "fg": s:realnearwhite, "bg": s:grey})
 call s:h("pMenu",  { "fg": s:nfg, "bg": s:nbg })
 call s:h("pMenuSel",  { "fg": s:nearwhite, "bg": s:purple })
 
