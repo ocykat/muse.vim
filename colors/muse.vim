@@ -8,7 +8,7 @@ let g:colors_name="muse"
 " COLORS {{{
 
 let s:nearwhite     = { "gui": "#F6F6F6", "cterm": "NONE" }
-let s:realnearwhite = { "gui": "#F6F6F6", "cterm": "255" }
+let s:realnearwhite = { "gui": "#F6F6F6", "cterm": "255"  }
 let s:red           = { "gui": "#AF0000", "cterm": "1"    }
 let s:purple        = { "gui": "#800080", "cterm": "126"  }
 let s:silver        = { "gui": "#C0C0C0", "cterm": "7"    }
